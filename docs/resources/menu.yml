@@ -1,0 +1,16 @@
+options:
+  - title: Home
+    url: index.html
+
+  - title: Content
+    url: content/index.html
+    section: intro
+
+  - title: Content2
+    url: content/hola.html
+    menu_section: spark
+
+    nested_options:
+      - title: Spark1
+        url: content/spark/spark1.html
+        menu_section: spark

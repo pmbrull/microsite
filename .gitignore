@@ -1,0 +1,9 @@
+.idea/
+.bloop/
+project/project/
+project/target/
+project/.bloop/
+target/
+.DS_Store
+.metals/
+src/
