@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: npm install -g markdownlint-cli
+  displayName: 'Install linter'
+
+- script: markdownlint docs/
+  displayName: 'Lint docs'
