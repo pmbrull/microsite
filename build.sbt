@@ -9,6 +9,8 @@ micrositeOrganizationHomepage := "https://www.pmbrull.com"
 micrositeDescription := "Personal blog"
 micrositeDocumentationLabelDescription := "Content"
 
+micrositeBaseUrl := "/pmbrull-microsite"
+
 // Social
 micrositeGitterChannel := false
 micrositeShareOnSocial := false
