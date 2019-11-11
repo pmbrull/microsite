@@ -7,3 +7,5 @@ target/
 .DS_Store
 .metals/
 src/
+node_modules/
+package-lock.json

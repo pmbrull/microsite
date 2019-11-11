@@ -16,7 +16,7 @@ micrositeGitterChannel := false
 micrositeShareOnSocial := false
 
 // Resource organization
-micrositeDocumentationUrl := "/content/"
+micrositeDocumentationUrl := "/pmbrull-microsite/content/"
 resourceDirectory in Compile := baseDirectory.value / "docs"
 micrositeDataDirectory := (resourceDirectory in Compile).value / "resources"
 micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "img"
