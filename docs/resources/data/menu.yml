@@ -1,16 +1,20 @@
 options:
-  - title: Home
-    url: index.html
 
   - title: Content
     url: content/index.html
+    posted: "2019-10-11"
     section: intro
+    tag: "hola"
 
   - title: Content2
     url: content/hola.html
+    posted: "2019-10-12"
     menu_section: spark
+    tag: "hola"
 
     nested_options:
       - title: Spark1
         url: content/spark/spark1.html
+        posted: "2019-10-13"
         menu_section: spark
+        tag: "generic"

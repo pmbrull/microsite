@@ -3,22 +3,23 @@ enablePlugins(MicrositesPlugin)
 
 // Microsite settings
 // Description
-micrositeName := "pmbrull"
+micrositeName := "pmbru\\\\"
 micrositeAuthor := "pmbrull"
 micrositeOrganizationHomepage := "https://www.pmbrull.com"
 micrositeDescription := "Personal blog"
 micrositeDocumentationLabelDescription := "Content"
 
-micrositeBaseUrl := "/pmbrull-microsite"
+micrositeUrl := "http://pmbrull.com"
+// micrositeBaseUrl := "/"
 
 // Social
 micrositeGitterChannel := false
 micrositeShareOnSocial := false
 
 // Resource organization
-micrositeDocumentationUrl := "/pmbrull-microsite/content/"
+micrositeDocumentationUrl := "/content/"
 resourceDirectory in Compile := baseDirectory.value / "docs"
-micrositeDataDirectory := (resourceDirectory in Compile).value / "resources"
+micrositeDataDirectory := (resourceDirectory in Compile).value / "resources" / "data"
 micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "img"
 
 // Github
