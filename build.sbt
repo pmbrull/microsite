@@ -19,7 +19,7 @@ micrositeGitterChannel := false
 micrositeShareOnSocial := false
 
 // Resource organization
-micrositeDocumentationUrl := "microsite/content/"
+micrositeDocumentationUrl := "content/"
 resourceDirectory in Compile := baseDirectory.value / "docs"
 micrositeDataDirectory := (resourceDirectory in Compile).value / "resources" / "data"
 micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "img"
