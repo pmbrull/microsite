@@ -5,29 +5,31 @@ enablePlugins(MicrositesPlugin)
 // Description
 micrositeName := "pmbru\\\\"
 micrositeAuthor := "pmbrull"
-micrositeOrganizationHomepage := "https://www.pmbrull.com"
+micrositeOrganizationHomepage := "https://www.pmbrull.github.io/microsite/"
+micrositeHomepage := "https://pmbrull.github.io/microsite/"
 micrositeDescription := "Personal blog"
 micrositeDocumentationLabelDescription := "Content"
 
-micrositeUrl := "http://pmbrull.com"
-// micrositeBaseUrl := "/"
+micrositeUrl := "https://pmbrull.github.io"
+micrositeBaseUrl := "/microsite"
+micrositeTheme := "light"
 
 // Social
 micrositeGitterChannel := false
 micrositeShareOnSocial := false
 
 // Resource organization
-micrositeDocumentationUrl := "/content/"
+micrositeDocumentationUrl := "microsite/content/"
 resourceDirectory in Compile := baseDirectory.value / "docs"
 micrositeDataDirectory := (resourceDirectory in Compile).value / "resources" / "data"
 micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "img"
+micrositeCssDirectory := (resourceDirectory in Compile).value / "resources" / "styles"
 
 // Github
 micrositeGithubOwner := "pmbrull"
-micrositeGithubRepo := "pmbrull-microsite"
+micrositeGithubRepo := "microsite"
 micrositeGithubToken := sys.env.get("orgGithubTokenSetting")
 micrositePushSiteWith := GitHub4s
 
 // Meta
 includeFilter in makeSite := "*.html" | "*.css" | "*.png" | "*.jpg" | "*.gif" | "*.js" | "*.swf" | "*.md" | "*.svg"
-micrositeCompilingDocsTool := WithMdoc
