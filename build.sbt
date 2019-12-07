@@ -10,7 +10,7 @@ micrositeHomepage := "https://pmbrull.github.io/microsite/"
 micrositeDescription := "Personal blog"
 micrositeDocumentationLabelDescription := "Content"
 
-micrositeUrl := "https://pmbrull.github.io"
+micrositeUrl := "http://pmbrull.github.io"
 micrositeBaseUrl := "/microsite"
 micrositeTheme := "light"
 
@@ -28,7 +28,7 @@ micrositeCssDirectory := (resourceDirectory in Compile).value / "resources" / "s
 // Github
 micrositeGithubOwner := "pmbrull"
 micrositeGithubRepo := "microsite"
-micrositeGithubToken := sys.env.get("orgGithubTokenSetting")
+micrositeGithubToken := sys.env.get("micrositeToken")
 micrositePushSiteWith := GitHub4s
 
 // Meta

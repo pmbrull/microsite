@@ -1,5 +1,6 @@
 .idea/
 .bloop/
+.tmp/
 project/project/
 project/target/
 project/.bloop/
