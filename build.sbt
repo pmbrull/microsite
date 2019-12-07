@@ -28,7 +28,7 @@ micrositeCssDirectory := (resourceDirectory in Compile).value / "resources" / "s
 // Github
 micrositeGithubOwner := "pmbrull"
 micrositeGithubRepo := "microsite"
-micrositeGithubToken := sys.env.get("orgGithubTokenSetting")
+micrositeGithubToken := sys.env.get("micrositeToken")
 micrositePushSiteWith := GitHub4s
 
 // Meta
