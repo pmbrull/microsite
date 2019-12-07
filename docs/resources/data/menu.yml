@@ -11,6 +11,13 @@ options:
     tag: categories
     menu_type: spark_menu
 
+    nested_options:
+    - title: Predicting Risk of cancer using KNN
+      url: content/spark/predicting-risk-of-cancer-using-knn.html
+      tag: "Spark Series"
+      posted: "2018-03-08"
+      menu_section: spark_menu
+
   - title: Main Menu
     url: content/modules.html
     tag: categories
@@ -30,11 +37,3 @@ options:
     url: content/modules.html
     tag: categories
     menu_type: miscellaneous_menu
-
-    nested_options:
-    - title: Predicting Risk of cancer using KNN
-      url: content/spark/predicting-risk-of-cancer-using-knn.html
-      tag: "Spark Series"
-      posted: "2018-03-08"
-      menu_section: spark_menu
-
