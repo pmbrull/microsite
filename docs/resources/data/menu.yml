@@ -117,7 +117,7 @@ options:
       url: content/scala/functional-programming-notes.html
       posted: "2019-03-29"
       tag: Scala Series
-      menu_section: scala_menu
+      menu_section: scala_section
 
   # Big Data Management
 
@@ -143,70 +143,108 @@ options:
       url: content/bigdata/key-value-stores.html
       posted: "2018-06-10"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
     
     - title: "MapReduce I"
       url: content/bigdata/mapreduce-i.html
       posted: "2018-06-11"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
     
     - title: "MapReduce II"
       url: content/bigdata/mapreduce-ii.html
       posted: "2018-06-12"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "Apache Spark"
       url: content/bigdata/apache-spark.html
       posted: "2018-06-13"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
     
     - title: "ElasticSearch as DB of choice"
       url: content/bigdata/elasticsearch-as-db-of-choice.html
       posted: "2018-08-04"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "Introduction to Docker"
       url: content/bigdata/introduction-to-docker.html
       posted: "2018-08-13"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
     
     - title: "First contact with Docker"
       url: content/bigdata/first-contact-with-docker.html
       posted: "2018-08-18"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "Docker's multi-container Environments"
       url: content/bigdata/docker-multi-container-environments.html
       posted: "2018-08-21"
       tag: Big Data management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "ES backup data in Docker"
       url: content/bigdata/es-backup-data-in-docker.html
       posted: "2018-08-25"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "Setting up HBase in Docker"
       url: content/bigdata/setting-up-hbase-in-docker.html
       posted: "2018-08-26"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "Final Multi-Container Application"
       url: content/bigdata/final-multi-container-application.html
       posted: "2018-08-29"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
 
     - title: "ElasticSearch benchmarking with Rally"
       url: content/bigdata/elasticsearch-benchmarking-with-rally.html
       posted: "2018-08-29"
       tag: Big Data Management
-      menu_section: bigdata_menu
+      menu_section: bigdata_section
+
+  # Machine Learning
+
+  - title: Machine Learning ...
+    url: content/ml.html
+    tag: categories
+    menu_type: main_menu
+
+  - title: Machine Learning
+    url: content/ml.html
+    tag: categories
+    menu_type: ml_menu
+    menu_section: ml_section
+
+    nested_options:
+    - title: "Support Vector Machines I"
+      url: content/ml/svm-i.html
+      posted: "2018-03-19"
+      tag: Machine Learning
+      menu_section: ml_section
+    
+    - title: "Support Vector Machines II"
+      url: content/ml/svm-ii.html
+      posted: "2018-03-23"
+      tag: Machine learning
+      menu_section: ml_section
+
+    - title: "Ensemble metods and Random Forests I"
+      url: content/ml/ensemble-methods-and-random-forests-i.html
+      posted: "2018-05-13"
+      tag: Machine Learning
+      menu_section: ml_section
+
+    - title: "Text Analysis on Movie Data - LDA"
+      url: content/ml/text-analysis-on-movie-data-lda.html
+      posted: "2018-09-09"
+      tag: Machine Learning
+      menu_section: ml_section
