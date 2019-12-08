@@ -2,7 +2,7 @@
 layout: page
 title:  "Resume"
 section: "Resume"
-position: 40
+position: 10
 ---
 
 # Resume

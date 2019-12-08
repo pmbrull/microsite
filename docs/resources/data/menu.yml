@@ -2,38 +2,49 @@ options:
 
 
   - title: Categories
-    url: content/modules.html
+    url: categories.html
     tag: categories
     menu_type: main_menu
 
   - title: Main Menu
-    url: content/modules.html
+    url: categories.html
     tag: categories
     menu_type: spark_menu
+
+  - title: Spark Series ...
+    url: content/spark.html
+    tag: categories
+    menu_type: main_menu
+    
+  - title: Spark Series
+    url: content/spark.html
+    tag: categories
+    menu_type: spark_menu
+    menu_section: spark_section
 
     nested_options:
     - title: Predicting Risk of cancer using KNN
       url: content/spark/predicting-risk-of-cancer-using-knn.html
       tag: "Spark Series"
       posted: "2018-03-08"
-      menu_section: spark_menu
+      menu_section: spark_section
 
   - title: Main Menu
-    url: content/modules.html
+    url: categories.html
     tag: categories
     menu_type: bigdata_menu
 
   - title: Main Menu
-    url: content/modules.html
+    url: categories.html
     tag: categories
     menu_type: ml_menu
 
   - title: Main Menu
-    url: content/modules.html
+    url: categories.html
     tag: categories
     menu_type: python_menu
 
   - title: Main Menu
-    url: content/modules.html
+    url: categories.html
     tag: categories
     menu_type: miscellaneous_menu

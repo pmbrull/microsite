@@ -8,11 +8,12 @@ micrositeAuthor := "pmbrull"
 micrositeOrganizationHomepage := "https://www.pmbrull.github.io/microsite/"
 micrositeHomepage := "https://pmbrull.github.io/microsite/"
 micrositeDescription := "Personal blog"
-micrositeDocumentationLabelDescription := "Content"
+micrositeDocumentationLabelDescription := ""
 
 micrositeUrl := "http://pmbrull.github.io"
 micrositeBaseUrl := "/microsite"
 micrositeTheme := "light"
+
 
 // Social
 micrositeGitterChannel := false
@@ -24,6 +25,7 @@ resourceDirectory in Compile := baseDirectory.value / "docs"
 micrositeDataDirectory := (resourceDirectory in Compile).value / "resources" / "data"
 micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "img"
 micrositeCssDirectory := (resourceDirectory in Compile).value / "resources" / "styles"
+micrositeExternalIncludesDirectory := (resourceDirectory in Compile).value / "resources" / "includes"
 
 // Github
 micrositeGithubOwner := "pmbrull"

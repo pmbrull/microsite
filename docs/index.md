@@ -5,10 +5,13 @@ section: "home"
 position: 0
 ---
 
+<!-- preload mathjax -->
+{% include mathjax.html %}
+
 # Latest Posts
 
 <ul>
-  {% assign lim = 10 %}
+  {% assign lim = 5 %}
   {% assign sorted = (site.data.menu.options | limit: lim | sort: 'posted') %}
   {% for post in sorted %}
 
@@ -16,10 +19,8 @@ position: 0
     
       <h3><a href="{{ baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <p style="margin-left: 10px; margin-top: -30px"> posted on <b>{{ post.posted }}</b>, category: <b>{{ post.tag }}</b> </p>
-      {% assign lim -= 1 %}
 
     {% else %}
-
       
       {% assign category_posts = post.nested_options %}
 
@@ -29,7 +30,6 @@ position: 0
     
             <h3><a href="{{ baseurl }}{{ category_post.url }}">{{ category_post.title }}</a></h3>
             <p style="margin-left: 10px; margin-top: -30px"> posted on <b>{{ category_post.posted }}</b>, category: <b>{{ category_post.tag }}</b> </p>
-            {% assign lim -= 1 %}
 
           {% endfor %}
       {% endif %}
