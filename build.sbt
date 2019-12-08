@@ -5,7 +5,7 @@ enablePlugins(MicrositesPlugin)
 // Description
 micrositeName := "pmbru\\\\"
 micrositeAuthor := "pmbrull"
-micrositeOrganizationHomepage := "https://www.pmbrull.github.io/microsite/"
+micrositeOrganizationHomepage := "https://pmbrull.github.io/microsite/"
 micrositeHomepage := "https://pmbrull.github.io/microsite/"
 micrositeDescription := "Personal blog"
 micrositeDocumentationLabelDescription := ""
