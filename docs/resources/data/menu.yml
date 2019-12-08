@@ -29,6 +29,12 @@ options:
       posted: "2018-03-08"
       menu_section: spark_section
 
+    - title: Playing with Streams
+      url: content/spark/playing-with-streams.html
+      tag: "Spark Series"
+      posted: "2018-06-16"
+      menu_section: spark_section
+
   - title: Main Menu
     url: categories.html
     tag: categories
