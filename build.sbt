@@ -23,7 +23,7 @@ micrositeShareOnSocial := false
 micrositeDocumentationUrl := "content/"
 resourceDirectory in Compile := baseDirectory.value / "docs"
 micrositeDataDirectory := (resourceDirectory in Compile).value / "resources" / "data"
-micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "img"
+micrositeImgDirectory := (resourceDirectory in Compile).value / "resources" / "images"
 micrositeCssDirectory := (resourceDirectory in Compile).value / "resources" / "styles"
 micrositeExternalIncludesDirectory := (resourceDirectory in Compile).value / "resources" / "includes"
 

@@ -6,6 +6,8 @@ tag: Spark Series
 section: spark_menu
 ---
 
+# Playing with Streams
+
 In this post, we are going to guide a few steps to being able to play with **Spark**, **Kafka** and **Maven**, setting up a cluster on our local machine and sending, receiving and handling a stream of data thanks to Ubuntu's mechanisms of easy navigation.
 
 ## Setup
