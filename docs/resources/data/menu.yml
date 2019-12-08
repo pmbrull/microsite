@@ -41,6 +41,48 @@ options:
       posted: "2018-03-08"
       menu_section: spark_section
 
+    - title: Spark MLLib I
+      url: content/spark/spark-mllib-i.html
+      tag: "Spark Series"
+      posted: "2018-03-27"
+      menu_section: spark_section
+
+    - title: Jupyter Pyspark
+      url: content/spark/jupyter-pyspark.html
+      tag: "Spark Series"
+      posted: "2018-07-26"
+      menu_section: spark_section
+
+    - title: Reading CSV with PySpark
+      url: content/spark/reading-csv-with-pyspark.html
+      tag: "Spark Series"
+      posted: "2018-07-28"
+      menu_section: spark_section
+
+    - title: Streaming with Kafka
+      url: content/spark/streaming-with-kafka.html
+      tag: "Spark Series"
+      posted: "2018-09-19"
+      menu_section: spark_section
+
+  - title: Scala Series ...
+    url: content/scala.html
+    tag: categories
+    menu_type: main_menu
+    
+  - title: Scala Series
+    url: content/scala.html
+    tag: categories
+    menu_type: scala_menu
+    menu_section: scala_section
+
+    nested_options:
+    - title: Scala Cheatsheet
+      url: content/scala/scala-cheatsheet.html
+      tag: "Scala Series"
+      posted: "2018-07-06"
+      menu_section: scala_section
+
   - title: Main Menu
     url: categories.html
     tag: categories
