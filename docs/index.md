@@ -8,6 +8,8 @@ position: 0
 <!-- preload mathjax -->
 {% include mathjax.html %}
 
+# Under construction!
+
 # Latest Posts
 
 <ul>
