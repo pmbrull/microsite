@@ -1,5 +1,6 @@
 options:
 
+  # Main Categories
 
   - title: Categories
     url: categories.html
@@ -10,6 +11,33 @@ options:
     url: categories.html
     tag: categories
     menu_type: spark_menu
+
+  - title: Main Menu
+    url: categories.html
+    tag: categories
+    menu_type: scala_menu
+
+  - title: Main Menu
+    url: categories.html
+    tag: categories
+    menu_type: bigdata_menu
+
+  - title: Main Menu
+    url: categories.html
+    tag: categories
+    menu_type: ml_menu
+
+  - title: Main Menu
+    url: categories.html
+    tag: categories
+    menu_type: python_menu
+
+  - title: Main Menu
+    url: categories.html
+    tag: categories
+    menu_type: miscellaneous_menu
+
+  # Spark Series
 
   - title: Spark Series ...
     url: content/spark.html
@@ -65,6 +93,8 @@ options:
       posted: "2018-09-19"
       menu_section: spark_section
 
+  # Scala Series
+
   - title: Scala Series ...
     url: content/scala.html
     tag: categories
@@ -83,22 +113,100 @@ options:
       posted: "2018-07-06"
       menu_section: scala_section
 
-  - title: Main Menu
-    url: categories.html
+    - title: "Functional Programming notes"
+      url: content/scala/functional-programming-notes.html
+      posted: "2019-03-29"
+      tag: Scala Series
+      menu_section: scala_menu
+
+  # Big Data Management
+
+  - title: Big Data Management ...
+    url: content/bigdata.html
+    tag: categories
+    menu_type: main_menu
+
+  - title: Big Data Management
+    url: content/bigdata.html
     tag: categories
     menu_type: bigdata_menu
+    menu_section: bigdata_section
 
-  - title: Main Menu
-    url: categories.html
-    tag: categories
-    menu_type: ml_menu
+    nested_options:
+    - title: "Introduction to Big Data Management: Hadoop"
+      url: content/bigdata/introduction-to-big-data-management-hadoop.html
+      posted: "2018-06-09"
+      tag: Big Data Management
+      menu_section: bigdata_section
 
-  - title: Main Menu
-    url: categories.html
-    tag: categories
-    menu_type: python_menu
+    - title: "Key-Value Stores"
+      url: content/bigdata/key-value-stores.html
+      posted: "2018-06-10"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+    
+    - title: "MapReduce I"
+      url: content/bigdata/mapreduce-i.html
+      posted: "2018-06-11"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+    
+    - title: "MapReduce II"
+      url: content/bigdata/mapreduce-ii.html
+      posted: "2018-06-12"
+      tag: Big Data Management
+      menu_section: bigdata_menu
 
-  - title: Main Menu
-    url: categories.html
-    tag: categories
-    menu_type: miscellaneous_menu
+    - title: "Apache Spark"
+      url: content/bigdata/apache-spark.html
+      posted: "2018-06-13"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+    
+    - title: "ElasticSearch as DB of choice"
+      url: content/bigdata/elasticsearch-as-db-of-choice.html
+      posted: "2018-08-04"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+
+    - title: "Introduction to Docker"
+      url: content/bigdata/introduction-to-docker.html
+      posted: "2018-08-13"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+    
+    - title: "First contact with Docker"
+      url: content/bigdata/first-contact-with-docker.html
+      posted: "2018-08-18"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+
+    - title: "Docker's multi-container Environments"
+      url: content/bigdata/docker-multi-container-environments.html
+      posted: "2018-08-21"
+      tag: Big Data management
+      menu_section: bigdata_menu
+
+    - title: "ES backup data in Docker"
+      url: content/bigdata/es-backup-data-in-docker.html
+      posted: "2018-08-25"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+
+    - title: "Setting up HBase in Docker"
+      url: content/bigdata/setting-up-hbase-in-docker.html
+      posted: "2018-08-26"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+
+    - title: "Final Multi-Container Application"
+      url: content/bigdata/final-multi-container-application.html
+      posted: "2018-08-29"
+      tag: Big Data Management
+      menu_section: bigdata_menu
+
+    - title: "ElasticSearch benchmarking with Rally"
+      url: content/bigdata/elasticsearch-benchmarking-with-rally.html
+      posted: "2018-08-29"
+      tag: Big Data Management
+      menu_section: bigdata_menu

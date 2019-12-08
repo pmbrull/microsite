@@ -255,7 +255,7 @@ print('Minimum number of Errors: {}'.format(min(T)))
 ```
 
 
-{% include plotly/predicting-risk-of-cancer-using-knn.html %}
+{% include plotly/spark/predicting-risk-of-cancer-using-knn.html %}
 
 
     Minimum number of False Positives: 4
