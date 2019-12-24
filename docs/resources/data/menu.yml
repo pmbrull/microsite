@@ -119,6 +119,30 @@ options:
       tag: Scala Series
       menu_section: scala_section
 
+    - title: "Scala with Cats notes"
+      url: content/scala/scala-with-cats-notes.html
+      posted: "2019-12-09"
+      tag: Scala Series
+      menu_section: scala_section
+
+    - title: "Asynchronous Programming: Futures"
+      url: content/scala/asynchronous-programming-futures.html
+      posted: "2019-12-18"
+      tag: Scala Series
+      section: scala_section 
+    
+    - title: "Actors"
+      url: content/scala/actors.html
+      posted: "2019-12-24"
+      tag: Scala Series
+      section: scala_section
+
+    - title: "Message Processing Semantics"
+      url: content/scala/message-processing-semantics.html
+      posted: "2019-12-25"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...

@@ -12,7 +12,7 @@ position: 10
 * Current - Big Data Developer at ServiZurich, Technology Delivery Center
     * ETL development on an on-premise cluster focusing on historical data archival and schema evolution using Spark, Scala, Hive and Avro.
     * Azure Cloud migration, orchestrating with Data Factory and running on Databricks. Fine performance tunning of the jobs to daily ingest billions of data.
-    * Define and develop Azure DevOps pipelines that serve to serve as the department guidelines.
+    * Define and develop Azure DevOps pipelines as department guidelines.
     * Implement cloud native applications.
 
 * Current - Data Science Assistant teacher in EAE Business School.
