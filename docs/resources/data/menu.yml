@@ -141,7 +141,13 @@ options:
       url: content/scala/message-processing-semantics.html
       posted: "2019-12-25"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Designing Actors Systems"
+      url: content/scala/designing-actors-systems.html
+      posted: "2019-12-26"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
