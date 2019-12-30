@@ -149,6 +149,18 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Testing Actor Systems"
+      url: content/scala/testing-actor-system.html
+      posted: "2019-12-27"
+      tag: Scala Series
+      section: scala_section
+
+    - title: "Failure Handling with Actors"
+      url: content/scala/failure-handling-with-actors.html
+      posted: "2019-12-30"
+      tag: Scala Series
+      section: scala_section
+
   # Big Data Management
 
   - title: Big Data Management ...
