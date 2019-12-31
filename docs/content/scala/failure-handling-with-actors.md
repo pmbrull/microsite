@@ -78,7 +78,7 @@ When we are talking about Restart we refer to:
 
 > When handling the Actor Lifecycle, the message that caused the failure will not be processed again, as it is could possibly triggered the error in the first place.
 
-There are different Hooks that we can call that will occur throughout the whole actor lifecycle:
+During the lifecycle, the actor starts, then maybe restarts multiple times and finally it stops. There are different Hooks that we can call that will occur throughout the whole actor lifecycle:
 
 ```scala
 trait Actor {

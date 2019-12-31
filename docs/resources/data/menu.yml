@@ -161,6 +161,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Actor Lifecycle Monitoring and the Error Kernel"
+      url: content/scala/actor-lifecycle-monitoring-and-the-error-kernel.html
+      posted: "2019-12-31"
+      tag: Scala Series
+      section: scala_section
+
   # Big Data Management
 
   - title: Big Data Management ...
