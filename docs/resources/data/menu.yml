@@ -167,6 +167,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Persistent Actor State"
+      url: content/scala/persistent-actor-state.html
+      posted: "2020-01-01"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...
