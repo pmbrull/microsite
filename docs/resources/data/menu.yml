@@ -173,6 +173,18 @@ options:
       tag: Scala Series
       section: scala_menu
 
+    - title: "Actor are Distributed"
+      url: content/scala/actors-are-distributed.html
+      posted: "2020-01-07"
+      tag: Scala Series
+      section: scala_menu
+
+    - title: "Actor are Distributed II"
+      url: content/scala/actors-are-distributed-ii.html
+      posted: "2020-01-08"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...
