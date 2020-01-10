@@ -100,7 +100,7 @@ class PostSummary(...) extends Actor {
             } yield
             if (auth.successful) Result(status, text)
             else Failure("not authorized")
-        response pipeTo sender
+            response pipeTo sender
     }
 }
 ```

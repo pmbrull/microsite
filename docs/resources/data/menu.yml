@@ -171,31 +171,37 @@ options:
       url: content/scala/persistent-actor-state.html
       posted: "2020-01-01"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
 
     - title: "Actor are Distributed"
       url: content/scala/actors-are-distributed.html
       posted: "2020-01-07"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
 
     - title: "Actor are Distributed II"
       url: content/scala/actors-are-distributed-ii.html
       posted: "2020-01-08"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
 
     - title: "Actors - Eventual Consistency"
       url: content/scala/actors-eventual-consistency.html
       posted: "2020-01-09"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
 
     - title: "Actor Composition"
       url: content/scala/actors-composition.html
       posted: "2020-01-10'"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Actors - Responsiveness"
+      url: content/scala/actors-responsiveness.html
+      posted: "2020-01-11"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
