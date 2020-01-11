@@ -231,7 +231,13 @@ options:
       url: content/scala/akka-typed-persistence.html
       posted: "2020-01-16"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Akka Typed Supervision"
+      url: content/scala/akka-typed-supervision.html
+      posted: "2020-01-17"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
