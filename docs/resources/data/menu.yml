@@ -227,6 +227,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Akka Typed Persistence"
+      url: content/scala/akka-typed-persistence.html
+      posted: "2020-01-16"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...
