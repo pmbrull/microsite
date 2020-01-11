@@ -219,7 +219,13 @@ options:
       url: content/scala/testing-akka-typed-behaviors.html
       posted: "2020-01-14"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Akka Typed Facilities"
+      url: content/scala/akka-typed-facilities.html
+      posted: "2020-01-15"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
