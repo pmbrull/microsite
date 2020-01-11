@@ -192,7 +192,7 @@ options:
       section: scala_section
 
     - title: "Actor Composition"
-      url: content/scala/actors-composition.html
+      url: content/scala/actor-composition.html
       posted: "2020-01-10'"
       tag: Scala Series
       section: scala_section
@@ -206,6 +206,12 @@ options:
     - title: "Typed Actors - Intro to Protocols"
       url: content/scala/typed-actors-intro-to-protocols.html
       posted: "2020-01-12"
+      tag: Scala Series
+      section: scala_section
+
+    - title: "Protocols in Akka Typed"
+      url: content/scala/protocols-in-akka-typed.html
+      posted: "2020-01-13"
       tag: Scala Series
       section: scala_section
 
