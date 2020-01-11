@@ -215,6 +215,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Testing Akka Typed Behaviors"
+      url: content/scala/testing-akka-typed-behaviors.html
+      posted: "2020-01-14"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...
