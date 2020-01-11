@@ -203,6 +203,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Typed Actors - Intro to Protocols"
+      url: content/scala/typed-actors-intro-to-protocols.html
+      posted: "2020-01-12"
+      tag: Scala Series
+      section: scala_section
+
   # Big Data Management
 
   - title: Big Data Management ...
