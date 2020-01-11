@@ -77,9 +77,84 @@ val greeter: Behavior[Greeter] =
     Behaviors.receiveMessage[Greeter] {
         case Greet(whom) =>
             println(s"Hello $whom!")
+            // Behavior should not change
             Behaviors.same
         case Stop =>
             println("Shutting down...")
             Behaviors.stopped
     }
 ```
+
+## Tangent: Running Actor Programs
+
+The best way is to start an `ActorSystem` and place the initialization code in the guardian's behavior:
+
+```scala
+ActorSystem[Nothing](Behaviors.setup[Nothing] { ctx => 
+    val greeterRef = ctx.spawn(greeter, "greeter")
+    ctx.watch(greeterRef) // sign death pact
+
+    greeterRef ! Greet("world")
+    greeterRef ! Stop
+
+    Behaviors.empty
+}, "helloWorld")
+```
+
+What we are doing is creating an Actor that does not except any incoming message (therefore the type parameter is `Nothing` and we leave an empty `Behavior`). Instead, it spawns the actor that will perform the job.
+
+## Handling Typed Responses
+
+A response of type `T` must be sent via an `ActorRef[T]`:
+
+```scala
+sealed trait Guardian
+case class NewGreeter(replyTo: ActorRef[ActorRef[Greeter]]) extends Guardian
+case object Shutdown extends Guardian
+
+val guardian = Behaviors.receive[Guardian] {
+    case (ctx, NewGreeter(replyTo)) =>
+        val ref: ActorRef[Greeter] = ctx.spawnAnonymous(greeter)
+        replyTo ! ref
+        Behavior.same
+    case (_, Shutdown) =>
+        Behavior.stopped
+}
+```
+
+Since the `context.sender` was removed, in order to send a response of type `T`, we need to have an appropriate `ActorRef[T]`.
+
+Here we've also seen the `receiver` constructor for `Behaviors`, where the messages received are a pair of the actor context and the message and we need here this context to spawn the anonymous actor.
+
+## Modeling Protocols with ADTs
+
+Let's create an example with the following protocol:
+
+1. A Buyers requests the price of an book
+2. The Seller responds
+3. The Buyer decides if to buy or quit
+4. If Buy, the Seller ships
+5. If Quit, then stop.
+
+```scala
+case class RequestQuote(title: String, buyer: ActorRef[Quote])
+
+case class Quote(price: BigDecimal, seller: ActorRef[BuyOrQuit])
+
+sealed trait BuyOrQuit
+case class Buy(address: Address, buyer: ActorRef[Shipping]) extends BuyOrQuit
+case object Quit extends BuyOrQuit
+
+case class Shipping(date: Date)
+```
+
+Note how in each case, we specify the type parameter of the `ActorRef[T]` as the message that is expected to receive next following the protocol. In the first example of the `RequestQuote`, we not only send the book title, but also the `ActorRef` that the seller must respond with the quote to.
+
+## Summary
+
+We have seen:
+
+* The philosophy behind how types were added to Akka actors
+* The usage of typed communication channels with ADTs
+* How to convey responses
+* How references between message types can be used to model progress in a protocol.
