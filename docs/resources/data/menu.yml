@@ -239,6 +239,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Akka - Stream Processing"
+      url: content/scala/akka-stream-processing.html
+      posted: "2020-01-18"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...

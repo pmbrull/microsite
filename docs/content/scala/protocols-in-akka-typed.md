@@ -99,7 +99,7 @@ ActorSystem[Nothing](Behaviors.setup[Nothing] { ctx =>
 }, "helloWorld")
 ```
 
-What we are doing is creating an Actor that does not except any incoming message (therefore the type parameter is `Nothing` and we leave an empty `Behavior`). Instead, it spawns the actor that will perform the job.
+What we are doing is creating an Actor that does not except any incoming message (therefore the type parameter is `Nothing` and we leave an empty `Behavior`). Instead, it spawns the actor that will perform the job. This is called the Guardian Pattern
 
 ## Handling Typed Responses
 
@@ -120,7 +120,7 @@ val guardian = Behaviors.receive[Guardian] {
 }
 ```
 
-Since the `context.sender` was removed, in order to send a response of type `T`, we need to have an appropriate `ActorRef[T]`.
+Since the `context.sender` was removed, in order to send a response of type `T`, we need to have an appropriate `ActorRef[T]`. As our type parameter is, in this case, `ActorRef[T]`, the resulting type ends up being `ActorRef[ActorRef[T]]`.
 
 Here we've also seen the `receiver` constructor for `Behaviors`, where the messages received are a pair of the actor context and the message and we need here this context to spawn the anonymous actor.
 
