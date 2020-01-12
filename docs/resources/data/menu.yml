@@ -243,7 +243,13 @@ options:
       url: content/scala/akka-stream-processing.html
       posted: "2020-01-18"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Akka - Introducing Reactive Streams Semantics"
+      url: content/scala/akka-introducing-reactive-streams-semantics.html
+      posted: "2020-01-19"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
