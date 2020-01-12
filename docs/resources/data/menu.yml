@@ -150,7 +150,7 @@ options:
       section: scala_section
 
     - title: "Testing Actor Systems"
-      url: content/scala/testing-actor-system.html
+      url: content/scala/testing-actor-systems.html
       posted: "2019-12-27"
       tag: Scala Series
       section: scala_section
