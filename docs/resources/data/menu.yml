@@ -251,6 +251,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Akka Streams"
+      url: content/scala/akka-streams.html
+      posted: "2020-01-20"
+      tag: Scala Series
+      section: scala_section
+
   # Big Data Management
 
   - title: Big Data Management ...
