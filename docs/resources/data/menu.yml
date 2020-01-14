@@ -257,6 +257,12 @@ options:
       tag: Scala Series
       section: scala_section
 
+    - title: "Akka Streams - Failure Handling and Processing Rate"
+      url: content/scala/akka-streams-failure-handling-and-processing-rate.html
+      posted: "2020-01-20"
+      tag: Scala Series
+      section: scala_menu
+
   # Big Data Management
 
   - title: Big Data Management ...
