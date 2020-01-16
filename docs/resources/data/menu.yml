@@ -261,7 +261,13 @@ options:
       url: content/scala/akka-streams-failure-handling-and-processing-rate.html
       posted: "2020-01-20"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Akka Streaming Protocols & Stream Composition"
+      url: content/scala/akka-streaming-protocols-and-stream-composition.html
+      posted: "2020-01-21"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
