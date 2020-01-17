@@ -134,4 +134,3 @@ run(Flow[ByteString]) // "mock" TCP
 * The difference between streaming and message based protocols
 * How akka Streams and Reactive Streams can make use of TCP
 * How to use the compositional building blocks of Akka Streams to enable nice "pluggable" testing.
-* 
