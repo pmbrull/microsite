@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: "Akka Streams - Stateful Operations and Materialized Values"
-posted: "2020-01-21"
+posted: "2020-01-22"
 tag: Scala Series
 section: scala_menu
 ---
