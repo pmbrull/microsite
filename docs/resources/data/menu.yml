@@ -276,7 +276,7 @@ options:
       section: scala_menu
 
     - title: "Akka Streams - Splitting and Merging Streams"
-      url: content/scala/akka-streams-splitting-and-merging-streams.html
+      url: content/scala/akka-streams-fan-in-fan-out-operations.html
       posted: "2020-01-22"
       tag: Scala Series
       section: scala_menu
