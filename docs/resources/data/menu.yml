@@ -273,13 +273,19 @@ options:
       url: content/scala/akka-streams-stateful-operations-and-materialized-values.html
       posted: "2020-01-22"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
 
     - title: "Akka Streams - Splitting and Merging Streams"
       url: content/scala/akka-streams-fan-in-fan-out-operations.html
       posted: "2020-01-22"
       tag: Scala Series
-      section: scala_menu
+      section: scala_section
+
+    - title: "Integrating Streams with (Typed) Actors"
+      url: content/scala/integrating-streams-with-typed-actors.html
+      posted: "2020-01-23"
+      tag: Scala Series
+      section: scala_section
 
   # Big Data Management
 
